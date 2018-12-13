@@ -4,7 +4,7 @@
     "description": "Shorthand snippets for css.",
     "repository": "https://github.com/joy-yu/vsc-css-snippets",
     "bugs": "https://github.com/joy-yu/vsc-css-snippets/issue",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "joy-yu",
     "icon": "images/icon.png",
     "engines": {

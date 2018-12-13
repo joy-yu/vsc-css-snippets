@@ -1,0 +1,30 @@
+{
+    "name": "css-snippets",
+    "displayName": "css-snippets",
+    "description": "Shorthand snippets for css.",
+    "repository": "https://github.com/joy-yu/vsc-css-snippets.git",
+    "version": "0.0.1",
+    "publisher": "joy-yu",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "css",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "scss",
+                "path": "./snippets/css.json"
+            },
+            {
+                "language": "less",
+                "path": "./snippets/css.json"
+            }
+        ]
+    }
+}

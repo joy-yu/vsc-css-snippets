@@ -23,13 +23,17 @@
     "prefix": "ais",
     "body": "align-items: stretch;"
   },
+  "animation": {
+    "prefix": "ani",
+    "body": "${4:${1:name} ${2:1s} ${3:infinite}};"
+  },
   "background": {
     "prefix": "bg",
-    "body": "background: ${1:#${2:ffffff}};"
+    "body": "background: ${1:#fff};"
   },
   "background-color": {
     "prefix": "bgc",
-    "body": "background-color: ${1:#${2:ffffff}};"
+    "body": "background-color: ${1:#fff};"
   },
   "background-image": {
     "prefix": "bgi",
@@ -69,7 +73,11 @@
   },
   "border": {
     "prefix": "bor",
-    "body": "border: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};"
+    "body": "border: ${4:${1:1px} ${2:solid} ${3:#000}};"
+  },
+  "border: none": {
+    "prefix": "born",
+    "body": "border: ${1:none};"
   },
   "border-color": {
     "prefix": "borc",
@@ -81,51 +89,55 @@
   },
   "border-width": {
     "prefix": "borw",
-    "body": "border-width: ${1:${2:1}${3:px}};"
+    "body": "border-width: ${1:1px};"
   },
   "border-bottom": {
     "prefix": "borb",
-    "body": "border-bottom: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};"
+    "body": "border-bottom: ${4:${1:1px} ${2:solid} ${3:#000}};"
   },
   "border-bottom-width": {
     "prefix": "borbw",
-    "body": "border-bottom-width: ${1:${2:1}${3:px}};"
+    "body": "border-bottom-width: ${1:1px};"
   },
   "border-left": {
     "prefix": "borl",
-    "body": "border-left: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};"
+    "body": "border-left: ${4:${1:1px} ${2:solid} ${3:#000}};"
   },
   "border-left-width": {
     "prefix": "borlw",
-    "body": "border-left-width: ${1:${2:1}${3:px}};"
+    "body": "border-left-width: ${1:1px};"
   },
   "border-right": {
     "prefix": "borr",
-    "body": "border-right: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};"
+    "body": "border-right: ${4:${1:1px} ${2:solid} ${3:#000}};"
   },
   "border-right-width": {
     "prefix": "borrw",
-    "body": "border-right-width: ${1:${2:1}${3:px}};"
+    "body": "border-right-width: ${1:1px};"
   },
   "border-top": {
     "prefix": "bort",
-    "body": "border-top: ${1:${2:1}${3:px}} ${3:solid} ${4:#${5:000}};"
+    "body": "border-top: ${4:${1:1px} ${2:solid} ${3:#000}};"
   },
   "border-top-width": {
     "prefix": "bortw",
-    "body": "border-top-width: ${1:${2:1}${3:px}};"
+    "body": "border-top-width: ${1:1px};"
   },
   "border-radius": {
     "prefix": "br",
-    "body": "border-radius: ${1:${2:1}${3:px}};"
+    "body": "border-radius: ${1:1px};"
   },
   "bottom": {
     "prefix": "bot",
     "body": "bottom: ${1:0};"
   },
   "box-shadow": {
-    "prefix": "bs",
-    "body": "box-shadow: ${1:0} ${2:3px} ${3:15px} ${4:1px} ${5:rgba(0, 0, 0, .5)};"
+    "prefix": "bos",
+    "body": "box-shadow: ${1:1px} ${2:1px} ${3:1px} ${4:1px} ${5:rgba(0, 0, 0, .5)};"
+  },
+  "box-sizing": {
+    "prefix": "boz",
+    "body": "box-sizing: ${1:border-box};"
   },
   "clear": {
     "prefix": "clr",
@@ -133,7 +145,7 @@
   },
   "color": {
     "prefix": "col",
-    "body": "color: ${1:#${2:000000}};"
+    "body": "color: ${1:#${2:000}};"
   },
   "content": {
     "prefix": "con",
@@ -177,7 +189,7 @@
   },
   "fill": {
     "prefix": "fill",
-    "body": "fill: ${1:#${2:000000}};"
+    "body": "fill: ${1:#${2:000}};"
   },
   "flex": {
     "prefix": "flex",
@@ -221,7 +233,7 @@
   },
   "font-size": {
     "prefix": "fs",
-    "body": "font-size: ${1:${2:1}${3:px}};"
+    "body": "font-size: ${1:1px};"
   },
   "font-style": {
     "prefix": "fst",
@@ -257,7 +269,7 @@
   },
   "height": {
     "prefix": "hei",
-    "body": "height: ${1:${2:1}${3:px}};"
+    "body": "height: ${1:1px};"
   },
   "height: auto": {
     "prefix": "heia",
@@ -329,11 +341,11 @@
   },
   "line-height": {
     "prefix": "lh",
-    "body": "line-height: ${1:${2:1}${3:em}};"
+    "body": "line-height: ${1:1px};"
   },
   "letter-spacing": {
     "prefix": "ls",
-    "body": "letter-spacing: ${1:${2:1}${3:px}};"
+    "body": "letter-spacing: ${1:1px};"
   },
   "letter-spacing: normal": {
     "prefix": "lsn",
@@ -341,23 +353,23 @@
   },
   "margin": {
     "prefix": "mar",
-    "body": "margin: ${1:${2:1}${3:px}};"
+    "body": "margin: ${1:1px};"
   },
   "margin-bottom": {
     "prefix": "marb",
-    "body": "margin-bottom: ${1:${2:1}${3:px}};"
+    "body": "margin-bottom: ${1:1px};"
   },
   "margin-left": {
     "prefix": "marl",
-    "body": "margin-left: ${1:${2:1}${3:px}};"
+    "body": "margin-left: ${1:1px};"
   },
   "margin-right": {
     "prefix": "marr",
-    "body": "margin-right: ${1:${2:1}${3:px}};"
+    "body": "margin-right: ${1:1px};"
   },
   "margin-top": {
     "prefix": "mart",
-    "body": "margin-top: ${1:${2:1}${3:px}};"
+    "body": "margin-top: ${1:1px};"
   },
   "margin: 0 auto": {
     "prefix": "mara",
@@ -365,19 +377,19 @@
   },
   "min-height": {
     "prefix": "mih",
-    "body": "min-height: ${1:${2:1}${3:px}};"
+    "body": "min-height: ${1:1px};"
   },
   "min-width": {
     "prefix": "miw",
-    "body": "min-width: ${1:${2:1}${3:px}};"
+    "body": "min-width: ${1:1px};"
   },
   "max-height": {
     "prefix": "mah",
-    "body": "max-height: ${1:${2:1}${3:px}};"
+    "body": "max-height: ${1:1px};"
   },
   "max-width": {
     "prefix": "maw",
-    "body": "max-width: ${1:${2:1}${3:px}};"
+    "body": "max-width: ${1:1px};"
   },
   "order": {
     "prefix": "ord",
@@ -405,23 +417,23 @@
   },
   "padding": {
     "prefix": "pad",
-    "body": "padding: ${1:${2:1}${3:px}};"
+    "body": "padding: ${1:1px};"
   },
   "padding-bottom": {
     "prefix": "padb",
-    "body": "padding-bottom: ${1:${2:1}${3:px}};"
+    "body": "padding-bottom: ${1:1px};"
   },
   "padding-left": {
     "prefix": "padl",
-    "body": "padding-left: ${1:${2:1}${3:px}};"
+    "body": "padding-left: ${1:1px};"
   },
   "padding-right": {
     "prefix": "padr",
-    "body": "padding-right: ${1:${2:1}${3:px}};"
+    "body": "padding-right: ${1:1px};"
   },
   "padding-top": {
     "prefix": "padt",
-    "body": "padding-top: ${1:${2:1}${3:px}};"
+    "body": "padding-top: ${1:1px};"
   },
   "position": {
     "prefix": "pos",
@@ -533,7 +545,7 @@
   },
   "width": {
     "prefix": "wid",
-    "body": "width: ${1:${2:1}${3:px}};"
+    "body": "width: ${1:1px};"
   },
   "width: auto": {
     "prefix": "wida",
@@ -551,9 +563,13 @@
     "prefix": "inc",
     "body": "@include ${1:mixin};"
   },
+  "@keyframes": {
+    "prefix": "key",
+    "body": "@keyframes ${1:name} {\n  $2\n}"
+  },
   "@media": {
     "prefix": "med",
-    "body": "@media $1 {\n  $2\n}"
+    "body": "@media ${1:screen} and (${2:max-width: 300px}) {\n  $3\n}"
   },
   "@mixin": {
     "prefix": "mix",

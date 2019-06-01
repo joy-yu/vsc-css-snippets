@@ -1,32 +1,32 @@
 {
-    "name": "css-snippets",
-    "displayName": "css-snippets",
-    "description": "Shorthand snippets for css.",
-    "repository": "https://github.com/joy-yu/vsc-css-snippets",
-    "bugs": "https://github.com/joy-yu/vsc-css-snippets/issue",
-    "version": "0.0.3",
-    "publisher": "joy-yu",
-    "icon": "images/icon.png",
-    "engines": {
-        "vscode": "^1.0.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "css",
-                "path": "./snippets/css.json"
-            },
-            {
-                "language": "scss",
-                "path": "./snippets/css.json"
-            },
-            {
-                "language": "less",
-                "path": "./snippets/css.json"
-            }
-        ]
-    }
+  "name": "css-snippets",
+  "displayName": "css-snippets",
+  "description": "Shorthand snippets for css.",
+  "repository": "https://github.com/joy-yu/vsc-css-snippets",
+  "bugs": "https://github.com/joy-yu/vsc-css-snippets/issue",
+  "version": "1.0.0",
+  "publisher": "joy-yu",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "css",
+        "path": "./snippets/css.json"
+      },
+      {
+        "language": "scss",
+        "path": "./snippets/css.json"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/css.json"
+      }
+    ]
+  }
 }

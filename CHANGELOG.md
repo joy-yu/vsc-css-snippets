@@ -6,3 +6,6 @@
 ## 1.0.1
 - some snippets improvement.
 - modify document.
+
+## 1.0.2
+- fix typo.

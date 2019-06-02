@@ -71,7 +71,7 @@ You can check the list for detail snippet info.
 | `flr`    | `float                    : right;`                             |
 | `fln`    | `float                    : none;`                              |
 | `ff`     | `font-family              : arial;`                             |
-| `fs`     | `font-size                : 12px;`                              |
+| `fz`     | `font-size                : 12px;`                              |
 | `fst`    | `font-style               : italic;`                            |
 | `fsti`   | `font-style               : italic;`                            |
 | `fstn`   | `font-style               : normal;`                            |
@@ -111,7 +111,7 @@ You can check the list for detail snippet info.
 | `miw`    | `min-width                : 1px;`                               |
 | `mah`    | `max-height               : 1px;`                               |
 | `maw`    | `max-width                : 1px;`                               |
-| `op`     | `opacity                  : 0;`                                 |
+| `opa`    | `opacity                  : 0;`                                 |
 | `ov`     | `overflow                 : visible;`                           |
 | `ova`    | `overflow                 : auto;`                              |
 | `ovh`    | `overflow                 : hidden;`                            |
@@ -144,9 +144,9 @@ You can check the list for detail snippet info.
 | `vab`    | `vertical-align           : bottom;`                            |
 | `vam`    | `vertical-align           : middle;`                            |
 | `vat`    | `vertical-align           : top;`                               |
-| `vi`     | `visibility               : visible;`                           |
-| `viv`    | `visibility               : visible;`                           |
-| `vih`    | `visibility               : hidden;`                            |
+| `vis`    | `visibility               : visible;`                           |
+| `visv`   | `visibility               : visible;`                           |
+| `vish`   | `visibility               : hidden;`                            |
 | `wb`     | `word-break               : break-all;`                         |
 | `wid`    | `width                    : 0;`                                 |
 | `wida`   | `width                    : auto;`                              |

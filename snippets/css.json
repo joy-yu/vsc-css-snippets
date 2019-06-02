@@ -40,7 +40,7 @@
   },
   "animation-direction": {
     "prefix": "anidi",
-    "body": "animation-direction: ${1|reverse,alternate,alternate-reverse,normal|};",
+    "body": "animation-direction: ${1|alternate,alternate-reverse,reverse,normal|};",
     "description": "initial value: normal"
   },
   "animation-duratuion": {
@@ -92,7 +92,7 @@
   },
   "background-image": {
     "prefix": "bgi",
-    "body": "background-image: url('${1:background.jpg}');"
+    "body": "background-image: url('${0:background.jpg}');"
   },
   "background-origin": {
     "prefix": "bgo",
@@ -237,30 +237,26 @@
     "body": "flex: ${1:1} ${2:1} ${3:auto};"
   },
   "flex-direction": {
-    "prefix": "fd",
+    "prefix": "fld",
     "body": "flex-direction: ${1|row,row-reverse,column,column-reverse|};",
     "description": "initial value: row"
   },
   "flex-direction: row": {
-    "prefix": "fdr",
+    "prefix": "fldr",
     "body": "flex-direction: row;"
   },
   "flex-direction: column": {
-    "prefix": "fdc",
+    "prefix": "fldc",
     "body": "flex-direction: column;"
   },
   "flex-flow": {
-    "prefix": "ff",
+    "prefix": "flf",
     "body": "flex-flow: ${1|row,row-reverse,column,column-reverse|} ${2|wrap,wrap-reverse,nowrap|};"
   },
   "flex-wrap": {
-    "prefix": "fw",
+    "prefix": "flw",
     "body": "flex-wrap: ${1|wrap,wrap-reverse,nowrap};",
     "description": "initial value: nowrap"
-  },
-  "flex-wrap: wrap": {
-    "prefix": "fww",
-    "body": "flex-wrap: wrap;"
   },
   "float": {
     "prefix": "fl",
@@ -317,6 +313,11 @@
   "font-weight: normal": {
     "prefix": "fwn",
     "body": "font-weight: normal;"
+  },
+  "font": {
+    "prefix": "ft",
+    "body": "font: ${0:12px/1.5};",
+    "description": "font: [weight style variant stretch] size/line-height family"
   },
   "height": {
     "prefix": "hei",
@@ -442,9 +443,9 @@
     "prefix": "maw",
     "body": "max-width: ${0:1px};"
   },
-  "order": {
-    "prefix": "ord",
-    "body": "order: ${0:1};"
+  "opacity": {
+    "prefix": "op",
+    "body": "opacity: ${0:0};"
   },
   "overflow": {
     "prefix": "ov",
@@ -538,25 +539,22 @@
     "prefix": "tdn",
     "body": "text-decoration: none;"
   },
+  "text-decoration: line-through": {
+    "prefix": "tdl",
+    "body": "text-decoration: line-through;"
+  },
+  "text-indent": {
+    "prefix": "ti",
+    "body": "text-indent: ${0:2em};"
+  },
+  "text-shadow": {
+    "prefix": "ts",
+    "body": "text-shadow: ${1:1px} ${2:1px} ${3:1px} ${4:1px} ${5:rgba(0, 0, 0, .5)};",
+    "description": "text-shadow: x-offset y-offset blur spread color"
+  },
   "text-transform": {
     "prefix": "tt",
     "body": "text-transform: ${1|capitalize,uppercase,lowercase,full-width,none|};"
-  },
-  "text-transform: capitalize": {
-    "prefix": "ttc",
-    "body": "text-transform: ${1:capitalize};"
-  },
-  "text-transform: lowercase": {
-    "prefix": "ttl",
-    "body": "text-transform: ${1:lowercase};"
-  },
-  "text-transform: uppercase": {
-    "prefix": "ttu",
-    "body": "text-transform: ${1:uppercase};"
-  },
-  "text-transform: none": {
-    "prefix": "ttn",
-    "body": "text-transform: ${1:none};"
   },
   "top": {
     "prefix": "top",
@@ -578,21 +576,21 @@
     "prefix": "vat",
     "body": "vertical-align: top;"
   },
-  "white-space": {
-    "prefix": "ws",
-    "body": "white-space: ${1|nowrap,pre,pre-wrap,pre-line,normal|};"
+  "visibility": {
+    "prefix": "vi",
+    "body": "visibility: ${1|visible,hidden,collapse|};"
   },
-  "white-space: nowrap": {
-    "prefix": "wsn",
-    "body": "white-space: nowrap;"
+  "visibility: visible": {
+    "prefix": "viv",
+    "body": "visibility: visible;"
   },
-  "white-space: normal": {
-    "prefix": "wsnor",
-    "body": "white-space: normal;"
+  "visibility: hidden": {
+    "prefix": "vih",
+    "body": "visibility: hidden;"
   },
-  "white-space: pre": {
-    "prefix": "wsp",
-    "body": "white-space: pre;"
+  "word-break": {
+    "prefix": "wb",
+    "body": "word-break: ${1|break-all,keep-all,break-word,normal|};"
   },
   "width": {
     "prefix": "wid",
@@ -601,6 +599,22 @@
   "width: auto": {
     "prefix": "wida",
     "body": "width: auto;"
+  },
+  "white-space": {
+    "prefix": "ws",
+    "body": "white-space: ${1|nowrap,pre,pre-wrap,pre-line,normal|};"
+  },
+  "white-space: nowrap": {
+    "prefix": "wsn",
+    "body": "white-space: nowrap;"
+  },
+  "white-space: pre": {
+    "prefix": "wsp",
+    "body": "white-space: pre;"
+  },
+  "word-wrap": {
+    "prefix": "ww",
+    "body": "word-wrap: ${1|break-word,break-spaces,normal|};"
   },
   "z-index": {
     "prefix": "zi",

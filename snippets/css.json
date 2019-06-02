@@ -353,15 +353,15 @@
     "body": "list-style: ${1|disc,circle,square,decimal,lower-roman,upper-roman,lower-alpha,upper-alpha,none,armenian,cjk-ideographic,georgian,lower-greek,hebrew,hiragana,hiragana-iroha,katakana,katakana-iroha,lower-latin,upper-latin|} ${2|outside,inside|};",
     "description": "list-style: type position image"
   },
-  "list-style-type": {
-    "prefix": "list",
-    "body": "list-style-type: ${1|disc,circle,square,decimal,lower-roman,upper-roman,lower-alpha,upper-alpha,none,armenian,cjk-ideographic,georgian,lower-greek,hebrew,hiragana,hiragana-iroha,katakana,katakana-iroha,lower-latin,upper-latin|};",
-    "description": "initial value: disc"
-  },
   "list-style-position": {
     "prefix": "lisp",
     "body": "${1|outside,inside|}",
     "description": "initial value: outside"
+  },
+  "list-style-type": {
+    "prefix": "list",
+    "body": "list-style-type: ${1|disc,circle,square,decimal,lower-roman,upper-roman,lower-alpha,upper-alpha,none,armenian,cjk-ideographic,georgian,lower-greek,hebrew,hiragana,hiragana-iroha,katakana,katakana-iroha,lower-latin,upper-latin|};",
+    "description": "initial value: disc"
   },
   "list-style-type: circle": {
     "prefix": "listc",

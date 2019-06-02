@@ -89,6 +89,7 @@ You can check the list for detail snippet info.
 | `jcsa`   | `justify-content          : space-around;`                      |
 | `jcsb`   | `justify-content          : space-between;`                     |
 | `lis`    | `list-style               : disc outside;`                      |
+| `lisp`   | `list-style-position      : outside;`                           |
 | `list`   | `list-style-type          : disc;`                              |
 | `listc`  | `list-style-type          : circle;`                            |
 | `listd`  | `list-style-type          : disc;`                              |

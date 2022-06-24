@@ -1,8 +1,10 @@
 # CSS Snippets
 
-This extension provide you shorthand CSS snippets for VS Code.
+This extension provide you shorthand CSS snippets for VS Code. It's support CSS/SCSS/LESS currently.
 
-You can check the list for detail snippet info.
+If the extension does not working normally. Please check the `Snippet Suggestions` value in VS Code setting. `inline/top` value are recommended, otherwise the snippets will be hidden or at the bottom of the suggestion box.
+
+You can check the list for detail info.
 
 | Prefix   | CSS Snippet Content                                             |
 | -------- | --------------------------------------------------------------- |
@@ -59,6 +61,9 @@ You can check the list for detail snippet info.
 | `disi`   | `display                  : inline-block;`                      |
 | `disn`   | `display                  : none;`                              |
 | `disf`   | `display                  : flex;`                              |
+| `disif`  | `display                  : inline-flex;`                       |
+| `disg`   | `display                  : grid;`                              |
+| `disig`  | `display                  : inline-grid;`                       |
 | `flex`   | `flex                     : 1 1 auto;`                          |
 | `fle`    | `flex                     : 1 1 auto;`                          |
 | `fld`    | `flex-direction           : row;`                               |
@@ -81,6 +86,13 @@ You can check the list for detail snippet info.
 | `fwl`    | `font-weight              : light;`                             |
 | `fwn`    | `font-weight              : normal;`                            |
 | `ft`     | `font                     : 12px/1.5;`                          |
+| `ga`     | `grid-area                : some-grid-area;`                    |
+| `gc`     | `grid-columns             : 1;`                                 |
+| `gr`     | `grid-rows                : 1;`                                 |
+| `gta`    | `grid-template-area       : some-grid-area;`                    |
+| `gtc`    | `grid-template-columns    : 1fr;`                               |
+| `gtcre`  | `grid-template-columns    : repeat(auto-fill, minmax(${0:300px}, 1fr));` |
+| `gtr`    | `grid-template-rows       : 1fr;`                               |
 | `hei`    | `height                   : 1px;`                               |
 | `jc`     | `justify-content          : flex-start;`                        |
 | `jcfe`   | `justify-content          : flex-end;`                          |

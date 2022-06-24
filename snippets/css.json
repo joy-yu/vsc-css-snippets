@@ -209,7 +209,7 @@
   },
   "display": {
     "prefix": "dis",
-    "body": "display: ${1|none,block,inline,inline-block,flex,inline-flex,list-item,table,inline-table,table-caption,table-cell,table-row,table-row-group,table-column|};"
+    "body": "display: ${1|none,block,inline,inline-block,flex,inline-flex,grid,inline-grid,list-item,contents,table,inline-table,table-caption,table-cell,table-row,table-row-group,table-column|};"
   },
   "display: block": {
     "prefix": "disb",
@@ -226,6 +226,18 @@
   "display: flex": {
     "prefix": "disf",
     "body": "display: flex;"
+  },
+  "display: inline-flex": {
+    "prefix": "disif",
+    "body": "display: inline-flex;"
+  },
+  "display: grid": {
+    "prefix": "disg",
+    "body": "display: grid;"
+  },
+  "display: inline-grid": {
+    "prefix": "disig",
+    "body": "display: inline-grid;"
   },
   "flex": {
     "prefix": "flex",
@@ -318,6 +330,35 @@
     "prefix": "ft",
     "body": "font: ${0:12px/1.5};",
     "description": "font: [weight style variant stretch] size/line-height family"
+  },
+  "grid-area": {
+    "prefix": "ga",
+    "body": "grid-area: ${0:some-grid-area};"
+  },
+  "grid-columns": {
+    "prefix": "gc",
+    "body": "grid-columns: ${0:1};"
+  },
+  "grid-rows": {
+    "prefix": "gr",
+    "body": "grid-rows: ${0:1};"
+  },
+  "grid-template-area": {
+    "prefix": "gta",
+    "body": "grid-template-area: ${0:some-grid-area};"
+  },
+  "grid-template-columns": {
+    "prefix": "gtc",
+    "body": "grid-template-columns: ${0:1fr};"
+  },
+  "grid-template-columns-repeat": {
+    "prefix": "gtcre",
+    "body": "grid-template-columns: repeat(auto-fill, minmax(${0:300px}, 1fr));",
+    "description": "It's useful for card list layout"
+  },
+  "grid-template-rows": {
+    "prefix": "gtr",
+    "body": "grid-template-rows: ${0:1fr};"
   },
   "height": {
     "prefix": "hei",

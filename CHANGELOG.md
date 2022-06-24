@@ -12,3 +12,6 @@
 
 ## 1.0.3
 - add grid snippets.
+
+## 1.0.4
+- fix conflict document parse in marketplace.
